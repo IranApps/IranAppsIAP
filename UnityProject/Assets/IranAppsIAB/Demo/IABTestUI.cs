@@ -19,7 +19,7 @@ public class IABTestUI : MonoBehaviour
 
         if (Button("Initialize IAB"))
         {
-            var key = "RSA-KEY FROM IRANAPPS DASHBOARD"; // Please change this RSA-KEY
+            var key = "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDjCzpWb0ku5seGQ3CRpEeWgEEOeXS/PYP8kl7vwJDR4LXG6VqYYbnzCjjA1M087UoFfuxYbuQRwWhMhh+JuhP1sr8lH3ysm9WVke+w7LIaqnAgASOIq+hQPycFlgcixRAFK/0j5P3rZjg4mu7bugmV0v0nMZnNzvlnN9JrtEm0KwIDAQAB"; // Please change this RSA-KEY
             IranAppsIAB.init(key);
         }
 
